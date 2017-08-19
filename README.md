@@ -26,22 +26,22 @@
 - press mouse anywhere on graphics pane (don't release) -- this will be x and y
 - drag mouse to where you want the bottom right of shape to be
 - Current action will be remembered
-NOTE: for hexagon, treat methodology as if you are drawing a rectangle
-/ \	<-- Hexagon draws like so
-!  !
-!  !
-\ /
+<p> NOTE: for hexagon, treat methodology as if you are drawing a rectangle
+<p> / \	<-- Hexagon draws like so
+<p> !  !
+<p> !  !
+<p> \ /
 
 ### Removing shapes
 - Click on delete button
 - Click on shape to delete
-NOTE: currentShape will be set to null and currentShapeIndex to -1
+<p> NOTE: currentShape will be set to null and currentShapeIndex to -1
 
 ### Selecting shapes/lines
 - Click / Mouse-press on a shape/line 
 (Provided that line, rectangle, oval or hexagon buttons were not clicked before)
-NOTE: currentShape selected will be remebered
-NOTE: Lines used as 'connectors' to shapes can only be selected to be deleted
+<p> NOTE: currentShape selected will be remebered
+<p> NOTE: Lines used as 'connectors' to shapes can only be selected to be deleted
 
 ### Resizing
 - select a shape or a stand-alone line
@@ -49,19 +49,18 @@ NOTE: Lines used as 'connectors' to shapes can only be selected to be deleted
 - if the mouse is moved to left, the shape should be made that much narrower on each side
 - if the mouse is moved up, the shape should be made that much higher top and bottom
 - if the mouse is moved down, the shape should be made that much shorter top and bottom.
-NOTE: The effect is that if the user drags from the top right corner of
-    the shape, the shape should be resized to whereever the dragged to.
-NOTE: currentShape selected will be remebered
+<p> NOTE: The effect is that if the user drags from the top right corner of the shape, the shape should be resized to whereever the dragged to.
+<p> NOTE: currentShape selected will be remebered
 
 ### Moving
 - select a shape or a stand-alone line
 - drag and release the mouse to where you want to move the shape
-NOTE: currentShape selected will be remebered
+<p> NOTE: currentShape selected will be remebered
 
 ### Setting text
 - select a shape
 - type text in the 'shape text' textbox
-NOTE: It is not possible to set text on a line
+<p> NOTE: It is not possible to set text on a line
 
 ### Adding lines
 - Click on line button
@@ -71,19 +70,16 @@ NOTE: It is not possible to set text on a line
 	it will draw a stand-alone line.
 	- if you mouse-press on a shape then drag and release on an empty space,
 	line won't draw (and vice-versa)
-NOTE: stand-alone lines can be moved and resized
-NOTE: lines used as connectors will automatically adjust to where their
-connected shapes are. Connectors have triple the width of stand-alone lines
+<p> NOTE: stand-alone lines can be moved and resized
+<p> NOTE: lines used as connectors will automatically adjust to where their connected shapes are. Connectors have triple the width of stand-alone lines
 
 ### Removing lines
 - Click on delete button
 - Click on line to delete
-NOTE: currentShape will be set to null and currentShapeIndex to -1
-NOTE: lines used as connectors are independent to the two shapes they connect to.
+<p> NOTE: currentShape will be set to null and currentShapeIndex to -1
+<p> NOTE: lines used as connectors are independent to the two shapes they connect to.
 
-E.g. shape1 is connected by line1 to shape2. If I delete shape 1 and 2,
-line1 won't deleted and will still be there. There would be no way to move
-or resize line1. The only thing you can do is to delete it.
+E.g. shape1 is connected by line1 to shape2. If I delete shape 1 and 2, line1 won't deleted and will still be there. There would be no way to move or resize line1. The only thing you can do is to delete it.
 
 ## Bugs
 - May be difficult for some people to resize with ultimate precision
